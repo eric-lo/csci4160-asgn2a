@@ -1,4 +1,4 @@
-# CUHK - CSCI4160 Fall 2019 Assignment 1a
+# CUHK - CSCI4160 Spring 2021 Assignment 2a
 
 ## pthread, openMP and SIMD
 
