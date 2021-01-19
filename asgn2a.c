@@ -7,7 +7,7 @@
 // If you have referenced to any source code that is not written by you
 // You have to cite them here.
 
-int asgn1a(Point * points, Point ** pPermissiblePoints, int number, int dim, int thread_number)
+int asgn2a(Point * points, Point ** pPermissiblePoints, int number, int dim, int thread_number)
 {
     // points -- input data
     // pPermissiblePoints -- your computed answer
