@@ -1,4 +1,4 @@
-INC = -I/usr/local/include -Iusr/share/CUnit/include
+INC = -I/usr/local/include -I/usr/share/CUnit/include
 LIB = -L/usr/local/lib -L/usr/share/CUnit/lib
 SIMD = -msse -mmmx -msse2
 
