@@ -4,4 +4,4 @@
 
 Work on the `asgn2a.c` and pass all the test cases in the tester.
 
-Note: please make sure your program is compilable on Linux9 machine
+Note: please make sure your program is compilable on HPC14 machine
