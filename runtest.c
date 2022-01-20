@@ -7,7 +7,7 @@
 
 int cmpID(const void *a, const void *b);
 
-int asgn2a(Point *points, Point ** pPermissiblePoints, int number, int dim, int threads);
+int asgn1a(Point *points, Point ** pPermissiblePoints, int number, int dim, int threads);
 Point* generateDataset(int number, int dim,  float arg, int seed);
 
 
@@ -107,7 +107,7 @@ int testCase(void)
 		threadNum = test.threads;
 	gettimeofday(&t_start, NULL);
 
-	permissiblePointNum = asgn2a(points, &permissiblePoints, test.number, test.dim, threadNum);
+	permissiblePointNum = asgn1a(points, &permissiblePoints, test.number, test.dim, threadNum);
 
 	gettimeofday(&t_end, NULL);
 	double t_ep = (t_end.tv_sec - t_start.tv_sec) * 1000000.0 + t_end.tv_usec - t_start.tv_usec;
